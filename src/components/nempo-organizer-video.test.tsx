@@ -112,4 +112,13 @@ describe("carousel video playback", () => {
       vi.useRealTimers();
     }
   });
+
+  it("waits for a tap when the device asks for reduced motion, then plays", () => {
+    vi.stubGlobal("matchMedia", (query: string) => ({ matches: query.includes("reduce"), media: query, addEventListener() {}, removeEventListener() {} }));
+    const { getByRole } = render(<NempoOrganizerVideo src="/welcome.mp4" poster="/poster.webp" label="Animasi teteh" />);
+    act(() => intersect(true));
+    expect(play).not.toHaveBeenCalled();
+    fireEvent.click(getByRole("button", { name: /Ketuk untuk memutar animasi/ }));
+    expect(play).toHaveBeenCalled();
+  });
 });

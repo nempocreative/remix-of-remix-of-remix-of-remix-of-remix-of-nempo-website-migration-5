@@ -197,6 +197,15 @@ export function NempoOrganizerVideo({
           </span>
           <span className="text-[0.65rem] opacity-80 sm:text-xs">Ketuk untuk memutar video lagi</span>
         </button>
+      ) : visible && !autoplayAllowed && !started ? (
+        <button
+          type="button"
+          onClick={() => setAutoplayAllowed(true)}
+          className="absolute inset-0 flex flex-col items-center justify-center gap-1 bg-foreground/40 px-4 text-center text-background"
+        >
+          <span className="text-sm font-semibold">Ketuk untuk memutar animasi</span>
+          <span className="text-xs opacity-90">{label}</span>
+        </button>
       ) : blocked ? (
         <button
           type="button"
