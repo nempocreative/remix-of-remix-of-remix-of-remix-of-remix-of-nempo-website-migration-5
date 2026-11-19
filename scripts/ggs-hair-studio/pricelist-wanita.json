@@ -1,0 +1,44 @@
+[
+  { "group": "Nail Art", "title": "Nail Art & Design", "items": [
+    ["Press On Nail", "50.000 – 100.000"], ["Kuku asli polos/glitter", "50.000"], ["Kuku asli motif", "60.000"],
+    ["Kuku asli cat eye", "100.000"], ["Kuku asli full cat eye + chrome", "150.000"], ["Fake nail", "100.000"],
+    ["Motif", "5.000 – 10.000"], ["Kuku palsu full cat eye + chrome", "250.000"], ["Motif sulit", "10.000 – 15.000"],
+    ["Kuku asli kaki", "50.000"], ["Tambah aksesoris", "2.000 – 3.000"], ["Tambah nail 1 jari", "10.000"], ["Remover nail", "25.000"] ] },
+  { "group": "Hair & Style", "title": "Haircuts & Styling", "items": [
+    ["Cuci rambut", "25.000"], ["Cuci blow", "50.000"], ["Cuci catok", "50.000"], ["Cuci catok/curly rambut sambung", "60.000"],
+    ["Cuci curly", "55.000"], ["Curly rambut", "45.000"], ["Curly rambut sambung", "55.000"], ["Catok rambut pendek", "40.000"],
+    ["Catok rambut panjang", "45.000"], ["Catok rambut sambung", "50.000"], ["Potong rambut", "50.000"], ["Potong poni", "20.000"],
+    ["Potong cuci catok", "85.000"], ["Potong cuci curly", "90.000"], ["Potong cuci blow", "85.000"] ] },
+  { "group": "Hair & Style", "title": "Colouring Full Warna", "items": [
+    ["No bleaching · pendek", "200.000 – 250.000"], ["No bleaching · sedang", "250.000 – 450.000"], ["No bleaching · panjang", "350.000 – 600.000"],
+    ["Bleaching · pendek", "350.000 – 450.000"], ["Bleaching · sedang", "400.000 – 600.000"], ["Bleaching · panjang", "550.000 – 800.000"] ] },
+  { "group": "Hair & Style", "title": "Colouring Highlight", "items": [
+    ["Pendek", "350.000"], ["Sedang", "450.000 – 700.000"], ["Panjang", "650.000 – 1.000.000"] ] },
+  { "group": "Hair & Style", "title": "Creambath", "items": [
+    ["Creambath Cultusia", "80.000"], ["Creambath CBD", "120.000"], ["Creambath Makarizo", "120.000"],
+    ["Creambath L’Oréal", "150.000"], ["Creambath L’Oréal warna", "175.000"] ] },
+  { "group": "Hair & Style", "title": "Hair Treatment", "items": [
+    ["Treatment ketombe", "120.000"], ["Treatment kutu anak (1–5 th)", "120.000"], ["Treatment kutu dewasa", "175.000"],
+    ["Treatment rambut bercabang", "100.000"], ["Masker", "60.000"] ] },
+  { "group": "Hair & Style", "title": "Keratin Treatment", "items": [
+    ["Pendek (tipis – tebal)", "550.000"], ["Sedang (tipis – tebal)", "650.000 – 700.000"], ["Panjang", "600.000 – 800.000"] ] },
+  { "group": "Hair & Style", "title": "Keratin Smoothing", "items": [
+    ["Pendek", "350.000"], ["Sedang", "450.000 – 550.000"], ["Panjang", "600.000 – 800.000"] ] },
+  { "group": "Massage", "title": "Massage Service", "items": [
+    ["Full body massage 60 menit", "90.000"], ["Full body massage 90 menit", "120.000"], ["Reflexion 60 menit", "95.000"],
+    ["Pijat urut tradisional khusus pria", "Mulai 100.000"] ] },
+  { "group": "Massage", "title": "Face Treatment", "items": [ ["Totok wajah + masker 45 menit", "65.000"] ] },
+  { "group": "Massage", "title": "MeniPedi", "items": [ ["MeniPedi", "120.000"], ["Manicure", "70.000"], ["Pedicure", "80.000"] ] },
+  { "group": "Body", "title": "Body Treatment", "items": [
+    ["Ratus", "50.000"], ["Waxing ketiak", "50.000"], ["Masker ketiak", "30.000"], ["Waxing tangan", "85.000"], ["Waxing kaki", "130.000"],
+    ["Waxing tangan + kaki", "190.000"], ["Waxing ketiak + tangan + kaki", "230.000"], ["Bekam full body", "140.000"],
+    ["Bekam punggung", "75.000"], ["Bekam tangan", "50.000"], ["Bekam kaki", "50.000"], ["Lulur scrub badan", "80.000"],
+    ["Masker badan", "60.000"], ["Lulur + masker", "120.000"] ] },
+  { "group": "Massage", "title": "Bundling Package", "items": [
+    ["Body massage + reflexy · 90 menit", "140.000"], ["Body massage + kerok · 90 menit", "145.000"],
+    ["Body massage + scrub + masker badan · 120 menit", "180.000"], ["Body massage + totok wajah · 90 menit", "155.000"],
+    ["Body massage + reflexy + scrub · 120 menit", "200.000"], ["Body massage + reflexy + totok wajah · 120 menit", "200.000"],
+    ["Body massage + reflexy + kerok · 120 menit", "195.000"], ["Body massage + bekam", "170.000"] ] },
+  { "group": "Kids", "title": "Khusus Treatment Anak", "items": [
+    ["Potong rambut anak", "70.000"], ["Nail art anak", "35.000"], ["Creambath anak", "80.000"], ["Treatment kutu (1–5 tahun)", "120.000"] ] }
+]

@@ -1,0 +1,10 @@
+[
+  { "id": "massage", "audience": "wanita", "title": "Full Body Massage", "label": "29%", "normalPrice": 120000, "promoPrice": 85000, "terms": "Durasi 90 menit, hemat Rp35.000", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "nail-art", "audience": "wanita", "title": "Nail Art", "label": "PROMO", "promoPrice": 35000, "terms": "Promo spesial November", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "fake-nails-polish", "audience": "wanita", "title": "Fake Nails + Polish", "label": "PROMO", "promoPrice": 120000, "terms": "Tanpa aksesoris", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "creambath", "audience": "wanita", "title": "Creambath", "label": "PROMO", "promoPrice": 80000, "terms": "Perawatan creambath rambut", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "ratus", "audience": "wanita", "title": "Ratus", "label": "10%", "normalPrice": 50000, "promoPrice": 45000, "terms": "Hemat Rp5.000 dari harga normal", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "scrub-badan", "audience": "wanita", "title": "Scrub Badan", "label": "PROMO", "promoPrice": 80000, "terms": "Lulur scrub seluruh badan", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "pelajar-potong-rambut", "audience": "wanita", "title": "Potong Rambut Pelajar", "label": "PELAJAR", "promoPrice": 50000, "terms": "Diskon pelajar, khusus pelajar", "start": "2026-11-19", "end": "2026-11-30" },
+  { "id": "pelajar-creambath", "audience": "wanita", "title": "Creambath Pelajar", "label": "PELAJAR", "promoPrice": 80000, "terms": "Diskon pelajar, khusus pelajar", "start": "2026-11-19", "end": "2026-11-30" }
+]

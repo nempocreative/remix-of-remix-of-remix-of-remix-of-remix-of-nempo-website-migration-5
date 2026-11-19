@@ -1,0 +1,6 @@
+[
+  {"group": "Hair Cut", "title": "Hair Cut", "items": [["Anak & pelajar", "25.000"], ["Dewasa (only cut)", "35.000"], ["Botak licin", "40.000"], ["Panjang / gondrong", "40.000"]]},
+  {"group": "Addition", "title": "Addition", "items": [["Keramas", "10.000"], ["Potong kumis", "10.000"], ["Potong jenggot", "10.000"], ["Pijat kepala · 15 menit", "25.000"], ["Masker / facial & pijat muka · 15 menit", "30.000"], ["Pijat kepala, muka, facial & bahu · 30 menit", "50.000"], ["Creambath, pijat kepala & bahu · 30 menit", "75.000"]]},
+  {"group": "Hair Styling", "title": "Hair Styling", "items": [["Perming", "250.000"], ["Keratin smoothing", "300.000"], ["Colouring no bleaching", "300.000"], ["Colouring bleaching", "350.000"], ["Highlight no bleaching", "250.000"], ["Highlight bleaching", "300.000"]]},
+  {"group": "Paket Ekonomis", "title": "Paket Ekonomis", "items": [["Paket G (Ganteng)", "45.000", "Potong + pijat bahu · 15 menit"], ["Paket GP (Ganteng Pisan)", "50.000", "Potong + pijat kepala bahu + keramas · 15 menit"], ["Paket GPS (Ganteng Pisan Sob)", "100.000", "Potong + creambath pijat kepala bahu + tonik · 30 menit"], ["Paket GPSS (Ganteng Pisan Sob Sob)", "75.000", "Potong + keramas tonik + pijat kepala muka + facial · 30 menit"]], "note": "Buat ganteng tanpa kantong bolong"}
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "pointer": "src/assets/home-thumbs/temu-tarung-instagram.webp.asset.json",
+    "filename": "temu-tarung-instagram-thumb.webp",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/cd0223ec-5e56-4865-8a45-5cad70045e6e/temu-tarung-instagram.webp",
+    "url": "/__l5e/assets-v1/cd0223ec-5e56-4865-8a45-5cad70045e6e/temu-tarung-instagram.webp",
+    "size": 50130,
+    "content_type": "image/webp",
+    "sha256": "9a07bd30fb228f27809795f101a84ee5dce19e05e38845c25fd73d1283f5c686"
+  },
+  {
+    "pointer": "src/assets/kalamuda-kegiatan-basecamp.jpg.asset.json",
+    "filename": "kalamuda-kegiatan-basecamp.jpg",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/2aeb2e18-d1b1-4baf-a8ab-4638b7bb02d4/kalamuda-kegiatan-basecamp.jpg",
+    "url": "/__l5e/assets-v1/2aeb2e18-d1b1-4baf-a8ab-4638b7bb02d4/kalamuda-kegiatan-basecamp.jpg",
+    "size": 213889,
+    "content_type": "image/jpeg",
+    "sha256": "864dfc215a7efefc9bd6c7f36fd46cc9873c6cdf54c477eb51bf4fbd39093c51"
+  },
+  {
+    "pointer": "src/assets/kalamuda-kegiatan-good-story-cafe.jpg.asset.json",
+    "filename": "kalamuda-kegiatan-good-story-cafe.jpg",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/442cfce1-f177-4de9-8cb1-c8ea97a7a54e/kalamuda-kegiatan-good-story-cafe.jpg",
+    "url": "/__l5e/assets-v1/442cfce1-f177-4de9-8cb1-c8ea97a7a54e/kalamuda-kegiatan-good-story-cafe.jpg",
+    "size": 244532,
+    "content_type": "image/jpeg",
+    "sha256": "58aa35194db77bf081e2ab75a3e1ed537e5c5e662736ae391984db73dbb9a0ce"
+  },
+  {
+    "pointer": "src/assets/kalamuda-kegiatan-hunting-foto.jpg.asset.json",
+    "filename": "kalamuda-kegiatan-hunting-foto.jpg",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/8f031030-5ec7-45d5-980c-7f3058a75a20/kalamuda-kegiatan-hunting-foto.jpg",
+    "url": "/__l5e/assets-v1/8f031030-5ec7-45d5-980c-7f3058a75a20/kalamuda-kegiatan-hunting-foto.jpg",
+    "size": 204257,
+    "content_type": "image/jpeg",
+    "sha256": "634257e01e701273cadc74b96128f4d1a696b37d9e807c07a579da518d7bc66d"
+  },
+  {
+    "pointer": "src/assets/kalamuda-kegiatan-nongkrong-outdoor.jpg.asset.json",
+    "filename": "kalamuda-kegiatan-nongkrong-outdoor.jpg",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/7e34c884-e0af-4b23-97b8-588f769ccb2e/kalamuda-kegiatan-nongkrong-outdoor.jpg",
+    "url": "/__l5e/assets-v1/7e34c884-e0af-4b23-97b8-588f769ccb2e/kalamuda-kegiatan-nongkrong-outdoor.jpg",
+    "size": 229287,
+    "content_type": "image/jpeg",
+    "sha256": "94595001d7e8adef3ea24e0e3836ba5baa0d281aba29bd2adfabe3f91a2c751c"
+  },
+  {
+    "pointer": "src/assets/lomba/jaipong-keser-bojong.mp3.asset.json",
+    "filename": "jaipong-keser-bojong.mp3",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/3cd33e67-7807-42e2-9095-449ed8f81dbb/jaipong-keser-bojong.mp3",
+    "url": "/__l5e/assets-v1/3cd33e67-7807-42e2-9095-449ed8f81dbb/jaipong-keser-bojong.mp3",
+    "size": 6833258,
+    "content_type": "audio/mpeg",
+    "sha256": "03b74884d72c34d2d076e9c473d988b4c60e06d521918a0a42698478ad7343f9"
+  },
+  {
+    "pointer": "src/assets/temu-tarung-instagram.webp.asset.json",
+    "filename": "temu-tarung-instagram.webp",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/f8bc9944-59b8-43cc-a115-d8b0075e3cac/temu-tarung-instagram.webp",
+    "url": "/__l5e/assets-v1/f8bc9944-59b8-43cc-a115-d8b0075e3cac/temu-tarung-instagram.webp",
+    "size": 189904,
+    "content_type": "image/webp",
+    "sha256": "a70c5acf3a84786d52b8b660228714a205ffbb7867df90e81215dd7ad3ccb5dc"
+  },
+  {
+    "pointer": "src/assets/videos/kala-muda-welcome-hd.mp4.asset.json",
+    "filename": "kala-muda-welcome-hd.mp4",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/f0ab3e27-23d4-4a2d-9de7-5f989f224d69/kala-muda-welcome-hd.mp4",
+    "url": "/__l5e/assets-v1/f0ab3e27-23d4-4a2d-9de7-5f989f224d69/kala-muda-welcome-hd.mp4",
+    "size": 2040582,
+    "content_type": "video/mp4",
+    "sha256": "6034886f332dad1c9d819c263fc059d667aaa07da29b06bca809bbdcc68e3681"
+  },
+  {
+    "pointer": "src/assets/videos/kala-muda-welcome-poster.webp.asset.json",
+    "filename": "kala-muda-welcome-poster.webp",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/58b71911-1c5b-46b9-a050-eb06b4848a7c/kala-muda-welcome-poster.webp",
+    "url": "/__l5e/assets-v1/58b71911-1c5b-46b9-a050-eb06b4848a7c/kala-muda-welcome-poster.webp",
+    "size": 186860,
+    "content_type": "image/webp",
+    "sha256": "082465e2b20b961f856dc03f370bea0a66b9a97cac1622e0e559623861d72135"
+  },
+  {
+    "pointer": "src/assets/videos/pasar-seni-coming-soon-poster.jpg.asset.json",
+    "filename": "pasar-seni-coming-soon-poster.jpg",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/16a98347-3896-40eb-9cf0-4bddfd2042f5/pasar-seni-coming-soon-poster.jpg",
+    "url": "/__l5e/assets-v1/16a98347-3896-40eb-9cf0-4bddfd2042f5/pasar-seni-coming-soon-poster.jpg",
+    "size": 105946,
+    "content_type": "image/jpeg",
+    "sha256": "bfdcb58073f2982e1d40842d58d939d91800f75d46b250d5e434b491e280b0f8"
+  },
+  {
+    "pointer": "src/assets/videos/pasar-seni-coming-soon.mp4.asset.json",
+    "filename": "pasar-seni-coming-soon.mp4",
+    "source_url": "https://id-preview--e784d0fc-c27f-4e52-8e4e-b7a458eb48ad.lovable.app/__l5e/assets-v1/d61bca2d-b5a7-4ed8-beb8-350e5e320ae3/pasar-seni-coming-soon.mp4",
+    "url": "/__l5e/assets-v1/d61bca2d-b5a7-4ed8-beb8-350e5e320ae3/pasar-seni-coming-soon.mp4",
+    "size": 1389271,
+    "content_type": "video/mp4",
+    "sha256": "25e8be06226f8bbbdfa5cfca9bae8b0a8c067b6a62814cf6f985f6501684fb70"
+  }
+]

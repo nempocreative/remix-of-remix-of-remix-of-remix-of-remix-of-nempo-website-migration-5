@@ -1,0 +1,346 @@
+.nempo-creator-team {
+  --creator-navy: #082f4a;
+  --creator-blue: #075b8d;
+  --creator-line: #e5e9e7;
+  margin-top: 20px;
+  width: 100%;
+  scroll-margin-top: 128px;
+  color: var(--creator-navy);
+}
+
+.nempo-creator-team__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.nempo-creator-team__intro {
+  min-width: 0;
+}
+
+
+.nempo-creator-team__title {
+  margin: 0;
+  color: var(--creator-navy);
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.nempo-creator-team__service {
+  margin: 5px 0 0;
+  color: #52636c;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.nempo-creator-team__disclosure {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  margin-top: 7px;
+  padding: 3px 8px;
+  border: 1px solid #d8e1e2;
+  border-radius: 999px;
+  background: #f1f5f5;
+  color: #405a63;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.nempo-creator-team__contact {
+  display: inline-flex;
+  min-height: 36px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 13px;
+  border: 1px solid rgba(8, 47, 74, 0.12);
+  border-radius: 999px;
+  background: var(--creator-navy);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.nempo-creator-team__contact:hover {
+  transform: translateY(-1px);
+  background: var(--creator-blue);
+}
+
+.nempo-creator-team__contact svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 2;
+}
+
+.nempo-creator-team__contact:focus-visible {
+  outline: 3px solid #63a5bd;
+  outline-offset: 3px;
+}
+
+.nempo-creator-team__carousel-row {
+  position: relative;
+}
+
+.nempo-creator-team__viewport {
+  position: relative;
+  container-type: inline-size;
+  overflow: hidden;
+  padding: 10px 6px 18px;
+  margin-inline: -6px;
+  touch-action: pan-y;
+  cursor: grab;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nempo-creator-team__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.nempo-creator-team__viewport:focus-visible {
+  outline: 3px solid #63a5bd;
+  outline-offset: 3px;
+  border-radius: 18px;
+}
+
+.nempo-creator-team__track {
+  display: flex;
+  width: max-content;
+  gap: 12px;
+  will-change: transform;
+}
+
+.nempo-creator-team__card {
+  --role-color: linear-gradient(135deg, #0891b2, #0e7490);
+  --tilt: -1.6deg;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 0 0 calc((100cqw - 36px) / 4);
+  min-width: 0;
+  padding: 8px 8px 10px;
+  border: 1px solid #eceae4;
+  border-radius: 6px;
+  background: #fffdfb;
+  box-shadow: 0 10px 24px rgba(8, 47, 74, 0.12), 0 2px 5px rgba(8, 47, 74, 0.07);
+  transform: rotate(var(--tilt));
+  transition: transform 260ms ease, box-shadow 260ms ease;
+}
+
+/* Kartu miring bergantian seperti polaroid yang disebar di meja. */
+.nempo-creator-team__card:nth-child(4n + 1) {
+  --tilt: -1.8deg;
+}
+
+.nempo-creator-team__card:nth-child(4n + 2) {
+  --tilt: 1.4deg;
+}
+
+.nempo-creator-team__card:nth-child(4n + 3) {
+  --tilt: -1deg;
+}
+
+.nempo-creator-team__card:nth-child(4n + 4) {
+  --tilt: 2deg;
+}
+
+.nempo-creator-team__card:hover {
+  transform: rotate(0deg) translateY(-5px) scale(1.03);
+  box-shadow: 0 20px 38px rgba(8, 47, 74, 0.18), 0 4px 8px rgba(8, 47, 74, 0.08);
+  z-index: 2;
+}
+
+.nempo-creator-team__portrait {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 0.92;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #e8ece9;
+  box-shadow: inset 0 0 0 1px rgba(8, 47, 74, 0.08);
+}
+
+.nempo-creator-team__portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 36%;
+  transition: transform 350ms ease;
+}
+
+.nempo-creator-team__card:hover .nempo-creator-team__portrait img {
+  transform: scale(1.05);
+}
+
+/* Area caption polaroid di bawah foto. */
+.nempo-creator-team__role-flag {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  gap: 5px;
+  margin: 10px 0 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  box-shadow: 0 3px 8px rgba(8, 47, 74, 0.18);
+}
+
+/* Titik kecil di kiri label peran. */
+.nempo-creator-team__role-flag::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.nempo-creator-team__name {
+  margin: 6px 0 2px;
+  overflow: hidden;
+  color: var(--creator-navy);
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nempo-creator-team__hint {
+  display: none;
+  position: absolute;
+  right: 8px;
+  bottom: 14px;
+  z-index: 2;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px 5px 9px;
+  border: 1px dashed rgba(8, 47, 74, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--creator-navy);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  pointer-events: none;
+  box-shadow: 0 4px 14px rgba(8, 47, 74, 0.1);
+}
+
+.nempo-creator-team__hint svg {
+  width: 13px;
+  height: 13px;
+  animation: nempo-team-hint-nudge 1.9s ease-in-out infinite;
+}
+
+@keyframes nempo-team-hint-nudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+}
+
+/* Hanya perangkat dengan kursor: kasih tahu kalau barisnya bisa digeser. */
+@media (hover: hover) and (pointer: fine) {
+  .nempo-creator-team__hint {
+    display: inline-flex;
+  }
+
+  .nempo-creator-team__viewport::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 0;
+    bottom: 12px;
+    width: 60px;
+    pointer-events: none;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.88));
+  }
+}
+
+@media (max-width: 800px) {
+
+  .nempo-creator-team__card {
+    flex-basis: calc((100cqw - 24px) / 3);
+  }
+}
+
+@media (max-width: 520px) {
+  .nempo-creator-team {
+    scroll-margin-top: 92px;
+  }
+
+  .nempo-creator-team__header {
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .nempo-creator-team__title {
+    font-size: 24px;
+  }
+
+  .nempo-creator-team__service {
+    font-size: 11px;
+  }
+
+  .nempo-creator-team__contact {
+    min-height: 34px;
+    gap: 6px;
+    padding-inline: 10px;
+    font-size: 10px;
+  }
+
+  .nempo-creator-team__contact svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .nempo-creator-team__card {
+    flex-basis: calc((100cqw - 12px) / 2);
+    padding: 6px 6px 8px;
+    border-radius: 5px;
+  }
+
+  .nempo-creator-team__portrait {
+    border-radius: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nempo-creator-team__track {
+    will-change: auto;
+  }
+
+  .nempo-creator-team__card,
+  .nempo-creator-team__contact {
+    transition: none;
+  }
+
+  .nempo-creator-team__hint svg {
+    animation: none;
+  }
+}
+
+/* Gaya polaroid: tanpa cahaya tepi — bayangan kertas sudah cukup. */
+
