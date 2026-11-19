@@ -118,7 +118,7 @@ describe("carousel video playback", () => {
     const { getByRole } = render(<NempoOrganizerVideo src="/welcome.mp4" poster="/poster.webp" label="Animasi teteh" />);
     act(() => intersect(true));
     expect(play).not.toHaveBeenCalled();
-    fireEvent.click(getByRole("button", { name: /Ketuk untuk memutar animasi/ }));
+    fireEvent.click(getByRole("button", { name: /Ketuk untuk memutar video/ }));
     expect(play).toHaveBeenCalled();
   });
 });
