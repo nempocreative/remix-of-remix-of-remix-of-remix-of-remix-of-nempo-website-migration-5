@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795110642818,
+      "tag": "0000_hidden_portfolio_event_keys",
+      "breakpoints": true
+    }
+  ]
 }

@@ -1264,6 +1264,7 @@ export type Database = {
         }
         Returns: boolean
       }
+      hidden_portfolio_event_keys: { Args: never; Returns: string[] }
     }
     Enums: {
       app_role: "admin"
