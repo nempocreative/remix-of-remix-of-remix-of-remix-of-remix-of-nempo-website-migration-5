@@ -12,7 +12,7 @@ import { DeerMascot } from "@/components/deer-mascot";
 import { useCityFilter } from "@/contexts/city-filter-context";
 import { HOME_SERVICE_BANNERS } from "@/data/home-service-banners";
 import { MomenDigitalShowcase } from "@/components/momen-digital-showcase";
-import { NEMPO_CONSULT_URL } from "@/lib/contact";
+import { NEMPO_CONSULT_URL, NAIL_ART_WA_URL } from "@/lib/contact";
 import { NempoFactsSection } from "@/components/nempo-facts-section";
 import { NempoHomeCtaBanner } from "@/components/nempo-home-cta-banner";
 import { LombaHomeCta } from "@/components/lomba-home-cta";
@@ -968,7 +968,7 @@ export default function Home() {
                 Si teteh datang ke rumahmu naik motor, lengkap dengan tas nail art. Kuku cantik tanpa harus keluar rumah.
               </p>
               <a
-                href={NEMPO_CONSULT_URL}
+                href={NAIL_ART_WA_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground transition-colors hover:bg-primary/90"
