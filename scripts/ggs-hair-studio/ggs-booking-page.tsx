@@ -11,7 +11,7 @@ export function GgsBookingForm({ services, loading, initialServiceId, selectedHa
     const service = services.find((s) => String(s.id) === initialServiceId);
     const audience = params.get('studio') === 'pria' || service?.audience === 'pria' ? 'pria' : 'wanita';
     const model = params.get('model')?.slice(0, 100) || selectedHairStyle;
-    return { audience, name: '', phone: '', serviceId: initialServiceId, staffId: 'any', date: '', time: '', notes: model ? `Model rambut: ${model}` : '' };
+    return { audience, name: '', phone: '', serviceId: initialServiceId, staffId: 'any', date: '', time: '', place: 'studio', address: '', notes: model ? `Model rambut: ${model}` : '' };
   });
   const [error, setError] = useState('');
   const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Jakarta' }).format(new Date());
@@ -43,7 +43,9 @@ export function GgsBookingForm({ services, loading, initialServiceId, selectedHa
         <fieldset><legend>03 / Jadwal &amp; detail</legend><div className="clearer-form-grid">
           <label>Tanggal kunjungan<input required type="date" min={today} value={fields.date} onChange={(e) => update('date', e.target.value)} /></label>
           <label>Jam kunjungan (WIB)<input required type="time" value={fields.time} onChange={(e) => update('time', e.target.value)} /></label>
-          <label className="clearer-form-wide">Catatan / model rambut (opsional)<textarea maxLength={600} placeholder="Model rambut, panjang rambut, kebutuhan khusus, atau alamat untuk home service." value={fields.notes} onChange={(e) => update('notes', e.target.value)} /></label>
+          <label className="clearer-form-wide">Tempat<select aria-label="Tempat" value={fields.place} onChange={(e) => update('place', e.target.value)}><option value="studio">Datang ke studio</option><option value="rumah">Home Service (ke rumah)</option></select></label>
+          {fields.place === 'rumah' && <label className="clearer-form-wide">Alamat Home Service<textarea required maxLength={300} placeholder="Nama jalan, nomor rumah, RT/RW, kelurahan, patokan" value={fields.address} onChange={(e) => update('address', e.target.value)} /></label>}
+          <label className="clearer-form-wide">Catatan / model rambut (opsional)<textarea maxLength={500} placeholder="Model rambut, panjang rambut, atau kebutuhan khusus." value={fields.notes} onChange={(e) => update('notes', e.target.value)} /></label>
         </div></fieldset>
       </div>
       <aside className="ggs-booking-summary"><h2>Rincian booking</h2><dl>
@@ -52,6 +54,7 @@ export function GgsBookingForm({ services, loading, initialServiceId, selectedHa
         <div><dt>Harga layanan</dt><dd>{service ? service.priceLabel ?? `Rp${service.price.toLocaleString('id-ID')}` : '—'}</dd></div>
         {service && service.durationMinutes > 0 && <div><dt>Durasi layanan</dt><dd>{service.durationMinutes} menit</dd></div>}
         <div><dt>Staf pilihan</dt><dd>{staff?.name ?? 'Siapa saja yang tersedia'}</dd></div>
+        <div><dt>Tempat</dt><dd>{fields.place === 'rumah' ? 'Home Service (ke rumah)' : 'Datang ke studio'}</dd></div>
         <div><dt>Jadwal (WIB)</dt><dd>{fields.date || 'Tanggal belum dipilih'} · {fields.time || 'Jam belum dipilih'}</dd></div>
       </dl><p>Jadwal dan staf belum dipesan. Kirim pesan di WhatsApp, lalu tunggu konfirmasi dari {group?.studio}.</p>
         {error && <p role="alert" className="clearer-error">{error}</p>}
