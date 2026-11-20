@@ -198,3 +198,5 @@
 - [x] GGS Beranda: judul "Pilihan favorit" jadi "Pricelist" di bagian barber pria dan GGS Beauty
 - [ ] GGS Pricelist: foto layanan dibuat ulang dengan AI — wajah Indonesia, tiap foto sesuai layanannya (cukur, catok, kuku, creambath, pijat, pedicure, colouring)
 - [x] GGS: menu bawah HP jadi 4 — Home, Services, Booking + Diskon (halaman /diskon berisi semua diskon aktif); diperiksa di HP, tablet, komputer
+
+- [x] GGS: tampilkan video si teteh nail art di Beranda GGS dan halaman Home Service
