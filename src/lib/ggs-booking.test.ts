@@ -12,7 +12,7 @@ describe('GGS detailed booking', () => {
     expect(result.number).toBe('6281333359200');
     expect(result.text).toContain('081234567890');
     expect(result.text).toContain('13.30');
-    expect(result.text).toContain(`Staf pilihan: ${staff?.name} · Barberman`);
+    expect(result.text).toContain(`Staf pilihan: ${staff?.name} (Barberman)`);
   });
   it('sends women to GGS Beauty', () => {
     const result = prepareBookingRequest({ ...booking, audience: 'wanita', serviceId: '2' }, services, '2026-11-19');

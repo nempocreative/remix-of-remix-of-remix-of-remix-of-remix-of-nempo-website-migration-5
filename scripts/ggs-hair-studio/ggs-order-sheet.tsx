@@ -128,7 +128,7 @@ export function GgsOrderSheet() {
           {fields.place === 'rumah' && (
             <label className="ggs-order__wide">{product ? 'Alamat pengiriman' : 'Alamat Home Service'}<textarea required rows={2} maxLength={300} placeholder="Nama jalan, nomor rumah, RT/RW, kelurahan, patokan" value={fields.address} onChange={(e) => update('address', e.target.value)} data-testid="input-order-address" /></label>
           )}
-          <label className="ggs-order__wide">Catatan <span>(opsional)</span><textarea rows={2} maxLength={500} placeholder={product ? 'Varian, warna, atau pertanyaan' : 'Model, panjang rambut, warna kuku, atau kebutuhan khusus'} value={fields.notes} onChange={(e) => update('notes', e.target.value)} data-testid="input-order-notes" /></label>
+          <label className="ggs-order__wide"><span>Catatan <span className="ggs-order__opt">(opsional)</span></span><textarea rows={2} maxLength={500} placeholder={product ? 'Varian, warna, atau pertanyaan' : 'Model, panjang rambut, warna kuku, atau kebutuhan khusus'} value={fields.notes} onChange={(e) => update('notes', e.target.value)} data-testid="input-order-notes" /></label>
           {error && <p role="alert" className="ggs-order__error">{error}</p>}
           <button type="submit" className="clearer-primary-button ggs-order__send" data-testid="button-order-send"><MessageCircle size={18} aria-hidden="true" /> Kirim ke WhatsApp {studio === 'pria' ? 'Barber' : 'Beauty'} <ArrowRight size={16} aria-hidden="true" /></button>
           <p className="ggs-order__note">Pesanan belum tersimpan sebagai reservasi. {s.name} akan membalas di WhatsApp untuk konfirmasi.</p>
