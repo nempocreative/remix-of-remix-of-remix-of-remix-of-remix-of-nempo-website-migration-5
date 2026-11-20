@@ -12,7 +12,7 @@ import { DeerMascot } from "@/components/deer-mascot";
 import { useCityFilter } from "@/contexts/city-filter-context";
 import { HOME_SERVICE_BANNERS } from "@/data/home-service-banners";
 import { MomenDigitalShowcase } from "@/components/momen-digital-showcase";
-import { NEMPO_CONSULT_URL, NAIL_ART_WA_URL } from "@/lib/contact";
+import { NEMPO_CONSULT_URL } from "@/lib/contact";
 import { NempoFactsSection } from "@/components/nempo-facts-section";
 import { NempoHomeCtaBanner } from "@/components/nempo-home-cta-banner";
 import { LombaHomeCta } from "@/components/lomba-home-cta";
@@ -20,8 +20,6 @@ import { NempoOrganizerVideo } from "@/components/nempo-organizer-video";
 import comingSoonVideo from "@/assets/videos/pasar-seni-coming-soon.mp4";
 import comingSoonPoster from "@/assets/videos/pasar-seni-coming-soon-poster.jpg";
 import welcomeVideoUrl from "@/assets/videos/kala-muda-welcome-hd.mp4";
-import nailArtVideo from "@/assets/videos/nail-art-teteh-motor.mp4.asset.json";
-import nailArtPoster from "@/assets/videos/nail-art-teteh-motor-poster.webp.asset.json";
 import { KALA_MUDA_WELCOME_SLIDE, type KalaMudaWelcomeSlide } from "@/data/kala-muda-welcome";
 import { NempoPartnershipCarousel } from "@/components/nempo-partnership-carousel";
 import { NempoCreatorTeamCard } from "@/components/nempo-creator-team-card";
@@ -914,7 +912,6 @@ export default function Home() {
         }
         .home-section-categories { order: 10; }
         .home-section-tagline { order: 15; }
-        .home-section-nail-art { order: 5; }
         .home-section-organizer-video { order: 14; }
         .home-section-recommendations { order: 30; }
         .home-section-itineraries { order: 40; }
@@ -949,35 +946,6 @@ export default function Home() {
         <div className="home-section-tagline mt-4">
           <NempoHomeCtaBanner />
         </div>
-
-        {/* ── Nail Art Panggilan ── */}
-        <section className="home-section-nail-art" aria-labelledby="home-nail-art-title">
-          <div className="mx-auto flex max-w-3xl flex-col items-center gap-5 rounded-[2rem] border border-border bg-card p-5 shadow-xl sm:flex-row sm:p-6">
-            <NempoOrganizerVideo
-              src={nailArtVideo.url}
-              poster={nailArtPoster.url}
-              label="Animasi teteh nail art panggilan naik motor membawa tas nail art"
-              sectionLabel="Video Nail Art Panggilan"
-              className="w-full max-w-[260px] shrink-0 overflow-hidden rounded-[1.5rem] border border-border bg-background"
-              videoClassName="block aspect-[9/16] w-full bg-muted object-cover"
-            />
-            <div className="text-center sm:text-left">
-              <p className="text-xs font-bold uppercase tracking-widest text-primary">Layanan Panggilan</p>
-              <h2 id="home-nail-art-title" className="mt-1 text-2xl font-extrabold text-foreground sm:text-3xl">Nail Art Panggilan</h2>
-              <p className="mt-2 text-sm text-muted-foreground sm:text-base">
-                Si teteh datang ke rumahmu naik motor, lengkap dengan tas nail art. Kuku cantik tanpa harus keluar rumah.
-              </p>
-              <a
-                href={NAIL_ART_WA_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground transition-colors hover:bg-primary/90"
-              >
-                Panggil Sekarang <ArrowRight className="h-4 w-4" />
-              </a>
-            </div>
-          </div>
-        </section>
 
         {/* ── Tahukah Anda ── */}
         <NempoFactsSection factIdx={factIdx} onFactChange={setFactIdx} />
