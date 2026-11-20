@@ -914,7 +914,7 @@ export default function Home() {
         }
         .home-section-categories { order: 10; }
         .home-section-tagline { order: 15; }
-        .home-section-nail-art { order: 16; }
+        .home-section-nail-art { order: 5; }
         .home-section-organizer-video { order: 14; }
         .home-section-recommendations { order: 30; }
         .home-section-itineraries { order: 40; }
