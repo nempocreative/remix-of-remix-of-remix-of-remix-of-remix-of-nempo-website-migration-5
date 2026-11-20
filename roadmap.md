@@ -29,6 +29,7 @@
 - [x] Bersihkan foto/video dan halaman lama yang tidak dipakai (±121 MB dihapus)
 - [x] Menu baru "Client Access" + pasang GGS Hair Studio seperti Garut Beans (tampilan + layanan/produk)
 - [ ] GGS Hair Studio: sambungkan pemesanan, akun, kasir, karyawan & absensi (perlu pindah data GGS) — menunggu keputusan pemilik
+- [x] GGS Hair Studio: menu bawah HP "Services" diganti "Home Service" yang membuka halaman layanan kunjungan ke rumah; diperiksa di HP, tablet, komputer
 - [x] GGS Hair Studio: Pricelist Wanita didesain ulang sesuai PDF (pink, chip kategori, Booking Now)
 - [x] GGS Hair Studio: Pricelist Pria hitam-emas di /ggs-hair-studio/pricelist-pria, booking ke WhatsApp 0813-3335-9200; diperiksa di HP dan komputer
 - [x] GGS Pricelist Pria: isi Paket G/GP/GPS/GPSS + slogan, Panjang/Gondrong 40K sesuai poster pemilik
