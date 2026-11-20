@@ -196,3 +196,4 @@
 - [x] GGS Hair Studio: menu My GGS dihapus dari web GGS (pemilik); kartu GGS di Client Access dikembalikan; diperiksa di HP dan komputer
 - [x] GGS Beranda: judul "Pilihan favorit" jadi "Pricelist" di bagian barber pria dan GGS Beauty
 - [ ] GGS Pricelist: foto layanan dibuat ulang dengan AI — wajah Indonesia, tiap foto sesuai layanannya (cukur, catok, kuku, creambath, pijat, pedicure, colouring)
+- [x] GGS: menu bawah HP jadi 4 — Home, Services, Booking + Diskon (halaman /diskon berisi semua diskon aktif); diperiksa di HP, tablet, komputer

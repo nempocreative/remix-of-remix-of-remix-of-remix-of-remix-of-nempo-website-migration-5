@@ -25,6 +25,7 @@ node "$HERE/patch-pricelist.mjs" "$APP"
 node "$HERE/patch-pricelist-pria.mjs" "$APP"
 node "$HERE/patch-swipe.mjs" "$APP"
 node "$HERE/patch-my-ggs.mjs" "$APP"
+node "$HERE/patch-tab-diskon.mjs" "$APP"
 # AI service photos (Indonesian faces) matched to each price list row by pricelist-services.ts.
 cp "$HERE"/pricelist-photos/*.jpg "$APP/public/"
 cd "$APP"
